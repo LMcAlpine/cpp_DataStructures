@@ -12,7 +12,7 @@ private:
 public:
     MyArrayList(int capacity = 16) : list(new Type[capacity]), capacity(capacity), size(0)
     {
-        // Other initialization code (if needed) goes here
+        
     }
 
     ~MyArrayList()

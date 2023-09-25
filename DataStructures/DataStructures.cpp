@@ -9,7 +9,7 @@ int main()
 
     arrayList.insert(10, 0);
     arrayList.insert(20, 1);
-    arrayList.insert(15, 1);  // Insert 15 between 10 and 20
+    arrayList.insert(15, 1); 
 
     std::cout << "Size of array list: " << arrayList.getSize() << std::endl;
 }
