@@ -37,6 +37,14 @@ public:
         size++;
     }
 
+    Type get(int index)
+    {
+        if (index >= size || index < 0) {
+            throw std::out_of_range("Index out of range!");
+        }
+        return list[index];
+    }
+
     void resize()
     {
         capacity *= 2;
